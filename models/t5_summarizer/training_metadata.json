@@ -1,0 +1,19 @@
+{
+    "model_checkpoint": "google-t5/t5-small",
+    "dataset": "CNN/DailyMail",
+    "training_examples": 20000,
+    "validation_examples": 2000,
+    "evaluation_examples": 2000,
+    "epochs": 1,
+    "learning_rate": 5e-05,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "max_input_length": 512,
+    "max_target_length": 128,
+    "training_loss": 2.0664,
+    "validation_loss": 1.79,
+    "rouge1": 0.4132,
+    "rouge2": 0.1919,
+    "rougeL": 0.2905,
+    "rougeLsum": 0.3559
+}

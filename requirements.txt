@@ -1,0 +1,20 @@
+# AI-Powered Intelligent Library Assistant
+# Runtime dependencies
+
+# Data processing
+pandas
+numpy
+
+# Machine learning / recommendation system
+scikit-learn
+scipy
+joblib
+
+# NLP / T5 summarization
+torch
+transformers
+sentencepiece
+
+# Model Context Protocol
+mcp==2.2.0
+anyio
